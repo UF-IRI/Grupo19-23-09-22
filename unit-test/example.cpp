@@ -4,10 +4,13 @@
 
 using namespace testing;
 
-namespace foobar::tests
-{
-	TEST(ExampleTests, Example) {
-		foobar::Example example{};
-        ASSERT_THAT(example.getValue(), Eq(99));
+
+
+	TEST(funciones, buscarmax)
+	{
+        ASSERT_STREQ(maximo(15,20), Eq(20));
 	}
-}
+	TEST(funciones, buscarmin)
+	{
+		ASSERT_THAT(minimo(3, 1), Eq(1));
+	}

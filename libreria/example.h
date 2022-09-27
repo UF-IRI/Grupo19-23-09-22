@@ -1,9 +1,12 @@
 #pragma once
+#include <math.h>
+#include <iostream>
+#include <string>
 
-namespace foobar
-{
-    struct Example
-    {
-        int getValue() const;
-    };
-}
+
+  int maximo(int* array);
+  int minimo(int* array);
+
+        
+   
+
