@@ -10,7 +10,6 @@ int maximo(int* array)
 		if (array[i] > max)
 		{
 			max = array[i];
-
 		}
 	}
 	std:: cout <<" El maximo es:" << max;
