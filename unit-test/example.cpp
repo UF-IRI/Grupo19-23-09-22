@@ -22,6 +22,6 @@ TEST(funciones, buscarmin)
 	for (i = 0; i < 10; i++)
 	{
 		ASSERT_THAT(minimo(), Eq(1));
-
+		
 	}
 }
