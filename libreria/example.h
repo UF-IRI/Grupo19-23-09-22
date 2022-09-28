@@ -6,7 +6,7 @@
 
   int maximo(int* array);
   int minimo(int* array);
-
+  
         
    
 
